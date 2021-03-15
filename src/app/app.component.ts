@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {MockDateBase} from './shared/mockDateBase';
+import {Appointment} from './shared/appointment';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'table-lesson';
+  displayedColumns = ['title', 'dateOfStart', 'country', 'town'];
+  dataSource: Array<Appointment> = MockDateBase.schedule;
+  constructor() {
+  }
+
 }
