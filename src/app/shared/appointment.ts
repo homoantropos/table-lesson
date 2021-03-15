@@ -7,9 +7,10 @@ export interface Appointment {
   status: string;
   placeOfHolding?: {
     country: string;
-    region: string;
+    region?: string;
     town: string;
-    sportHallName: string;
-    address: string;
+    sportHallName?: string;
+    address?: string;
   };
+  organiser: string;
 }
