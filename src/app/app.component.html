@@ -8,7 +8,7 @@
 
   <ng-container matColumnDef="dateOfStart">
     <th mat-header-cell *matHeaderCellDef> Дата початку </th>
-    <td mat-cell *matCellDef="let appointment"> {{appointment.dateOfStart | date : 'dd.MM.yy'}} </td>
+    <td mat-cell *matCellDef="let appointment"> {{appointment.startDate | date : 'dd.MM.yy'}} </td>
   </ng-container>
 
   <ng-container matColumnDef="country">

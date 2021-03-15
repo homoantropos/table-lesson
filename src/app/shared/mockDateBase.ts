@@ -2,8 +2,73 @@ import {Appointment} from './appointment';
 
 export class MockDateBase {
   static schedule: Array<Appointment> = [
+    {title: 'Зимова Гімназіада України з лижних гонок',
+      startDate: new Date(2021, 2, 16),
+      finishDate: new Date(2021, 2, 28),
+      participants: 'schoolchild',
+      sportKind: 'лижні гонки',
+      direction: 'sport',
+      status: 'ukrainian',
+      placeOfHolding: {
+        country: 'Україна',
+        region: 'Львівська обл.',
+        town: 'Сколе',
+        sportHallName: 'база Тисовець',
+        address: ''
+      },
+      organiser: 'УФУС'
+    },
+    {title: 'Зимова Універсіада України з біатлону',
+      startDate: new Date(2021, 2, 9),
+      finishDate: new Date(2021, 2, 11),
+      participants: 'students',
+      sportKind: 'біатлон',
+      direction: 'sport',
+      status: 'ukrainian',
+      placeOfHolding: {
+        country: 'Україна',
+        region: 'Львівська обл.',
+        town: 'Сколе',
+        sportHallName: 'база Тисовець',
+        address: ''
+      },
+      organiser: 'СССУ'
+    },
+    {title: 'Зимова Гімназіада України з біатлону',
+      startDate: new Date(2021, 2, 28),
+      finishDate: new Date(2021, 2, 30),
+      participants: 'schoolchild',
+      sportKind: 'біатлон',
+      direction: 'sport',
+      status: 'ukrainian',
+      placeOfHolding: {
+        country: 'Україна',
+        region: 'Львівська обл.',
+        town: 'Сколе',
+        sportHallName: 'база Тисовець',
+        address: ''
+      },
+      organiser: 'УФУС'
+    },
+    {title: 'Зимова Універсіада України з лижних гонок',
+      startDate: new Date(2021, 2, 18),
+      finishDate: new Date(2021, 2, 21),
+      participants: 'students',
+      sportKind: 'лижні гонки',
+      direction: 'sport',
+      status: 'ukrainian',
+      placeOfHolding: {
+        country: 'Україна',
+        region: 'Львівська обл.',
+        town: 'Сколе',
+        sportHallName: 'база Тисовець',
+        address: ''
+      },
+      organiser: 'СССУ'
+    },
     {title: 'Європейські університетські ігри з волейболу',
-      dateOfStart: new Date(2021, 7, 14),
+      startDate: new Date(2021, 6, 14),
+      finishDate: new Date(2021, 6, 21),
       participants: 'students',
       sportKind: 'волейбол',
       direction: 'sport',
@@ -18,7 +83,8 @@ export class MockDateBase {
       organiser: 'СССУ'
     },
     {title: 'Європейські університетські ігри з регбі-7',
-      dateOfStart: new Date(2021, 7, 14),
+      startDate: new Date(2021, 6, 14),
+      finishDate: new Date(2021, 6, 21),
       participants: 'students',
       sportKind: 'регбі-7',
       direction: 'sport',
@@ -33,7 +99,8 @@ export class MockDateBase {
       organiser: 'СССУ'
     },
     {title: 'Чемпіонат України з волейболу серед учнів',
-      dateOfStart: new Date(2021, 1, 23),
+      startDate: new Date(2021, 1, 23),
+      finishDate: new Date(2021, 1, 26),
       participants: 'schoolchild',
       sportKind: 'волейбол',
       direction: 'sport',
@@ -48,7 +115,8 @@ export class MockDateBase {
       organiser: 'КФВС МОН'
     },
     {title: 'Літня Гімназіада України з волейболу (відбіркові)',
-      dateOfStart: new Date(2021, 3, 12),
+      startDate: new Date(2021, 3, 12),
+      finishDate: new Date(2021, 2, 15),
       participants: 'schoolchild',
       sportKind: 'волейбол',
       direction: 'sport',
@@ -63,7 +131,8 @@ export class MockDateBase {
       organiser: 'УФУС'
     },
     {title: 'ІІІ Всеукраїнські Cool Games',
-      dateOfStart: new Date(2021, 4, 27),
+      startDate: new Date(2021, 4, 27),
+      finishDate: new Date(2021, 4, 30),
       participants: 'schoolchild',
       sportKind: 'Cool Games',
       direction: 'physical culture',
@@ -78,7 +147,8 @@ export class MockDateBase {
       organiser: 'КФВС МОН'
     },
     {title: 'Літня Універсіада України з веслування академічного',
-      dateOfStart: new Date(2021, 4, 20),
+      startDate: new Date(2021, 4, 20),
+      finishDate: new Date(2021, 4, 22),
       participants: 'students',
       sportKind: 'веслування академічне',
       direction: 'sport',
@@ -93,7 +163,8 @@ export class MockDateBase {
       organiser: 'СССУ'
     },
     {title: 'Літня Гімназіада України з тхеквондо ВТФ (відбіркові)',
-      dateOfStart: new Date(2021, 4, 20),
+      startDate: new Date(2021, 0, 20),
+      finishDate: new Date(2021, 0, 23),
       participants: 'schoolchild',
       sportKind: 'тхеквондо ВТФ',
       direction: 'sport',
@@ -108,7 +179,8 @@ export class MockDateBase {
       organiser: 'УФУС'
     },
     {title: 'Всесвітня літня Гімназіада з велоспорту',
-      dateOfStart: new Date(2021, 9, 14),
+      startDate: new Date(2021, 9, 14),
+      finishDate: new Date(2021, 9, 21),
       participants: 'schoolchild',
       sportKind: 'велоспорт',
       direction: 'sport',
@@ -123,7 +195,8 @@ export class MockDateBase {
       organiser: 'УФУС'
     },
     {title: 'Літня Універсіада України з гандболу',
-      dateOfStart: new Date(2021, 5, 19),
+      startDate: new Date(2021, 5, 19),
+      finishDate: new Date(2021, 5, 21),
       participants: 'students',
       sportKind: 'гандбол',
       direction: 'sport',
@@ -138,7 +211,8 @@ export class MockDateBase {
       organiser: 'СССУ'
     },
     {title: 'Всеукраїнські Combat Games1 з карате',
-      dateOfStart: new Date(2021, 11, 13),
+      startDate: new Date(2021, 11, 13),
+      finishDate: new Date(2021, 11, 18),
       participants: 'schoolchild',
       sportKind: 'карате',
       direction: 'sport',
@@ -153,7 +227,8 @@ export class MockDateBase {
       organiser: 'КФВС МОН'
     },
     {title: 'Всеукраїнські Combat Games1 з боротьби греко-римської',
-      dateOfStart: new Date(2021, 11, 13),
+      startDate: new Date(2021, 11, 13),
+      finishDate: new Date(2021, 11, 18),
       participants: 'schoolchild',
       sportKind: 'боротьба греко-римська',
       direction: 'sport',
@@ -168,7 +243,8 @@ export class MockDateBase {
       organiser: 'КФВС МОН'
     },
     {title: 'Всеукраїнські Combat Games1 з тхеквондо ВТФ',
-      dateOfStart: new Date(2021, 11, 13),
+      startDate: new Date(2021, 11, 13),
+      finishDate: new Date(2021, 11, 18),
       participants: 'schoolchild',
       sportKind: 'тхеквондо ВТФ',
       direction: 'sport',
@@ -183,7 +259,8 @@ export class MockDateBase {
       organiser: 'КФВС МОН'
     },
     {title: 'Всеукраїнські Combat Games1 з боротьби вільної',
-      dateOfStart: new Date(2021, 11, 13),
+      startDate: new Date(2021, 11, 13),
+      finishDate: new Date(2021, 11, 18),
       participants: 'schoolchild',
       sportKind: 'боротьба вільна',
       direction: 'sport',
@@ -198,7 +275,8 @@ export class MockDateBase {
       organiser: 'КФВС МОН'
     },
     {title: 'Всеукраїнські Combat Games1 з дзюдо',
-      dateOfStart: new Date(2021, 11, 13),
+      startDate: new Date(2021, 11, 13),
+      finishDate: new Date(2021, 11, 18),
       participants: 'schoolchild',
       sportKind: 'дзюдо',
       direction: 'sport',
@@ -213,7 +291,8 @@ export class MockDateBase {
       organiser: 'КФВС МОН'
     },
     {title: 'Шкільна баскетбольна ліга',
-      dateOfStart: new Date(2021, 8, 26),
+      startDate: new Date(2021, 8, 26),
+      finishDate: new Date(2021, 8, 30),
       participants: 'schoolchild',
       sportKind: 'баскетбол',
       direction: 'sport',
@@ -228,7 +307,8 @@ export class MockDateBase {
       organiser: 'КФВС МОН'
     },
     {title: 'Чемпіонат України з фрі-файту серед учнів',
-      dateOfStart: new Date(2021, 10, 9),
+      startDate: new Date(2021, 10, 9),
+      finishDate: new Date(2021, 10, 10),
       participants: 'schoolchild',
       sportKind: 'фрі-файт',
       direction: 'sport',
@@ -243,7 +323,8 @@ export class MockDateBase {
       organiser: 'КФВС МОН'
     },
     {title: 'Міжнародний день студентського спорту',
-      dateOfStart: new Date(2021, 8, 20),
+      startDate: new Date(2021, 8, 20),
+      finishDate: new Date(2021, 8, 20),
       participants: 'students',
       direction: 'physical culture',
       status: 'ukrainian',
