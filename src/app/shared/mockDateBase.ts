@@ -80,7 +80,7 @@ export class MockDateBase {
         sportHallName: '',
         address: ''
       },
-      organiser: 'СССУ'
+      organiser: 'СССУ EUSA'
     },
     {title: 'Європейські університетські ігри з регбі-7',
       startDate: new Date(2021, 6, 14),
@@ -96,7 +96,7 @@ export class MockDateBase {
         sportHallName: '',
         address: ''
       },
-      organiser: 'СССУ'
+      organiser: 'СССУ EUSA'
     },
     {title: 'Чемпіонат України з волейболу серед учнів',
       startDate: new Date(2021, 1, 23),
@@ -114,6 +114,166 @@ export class MockDateBase {
       },
       organiser: 'КФВС МОН'
     },
+    {title: 'Спортивна надія України з волейболу серед учнів',
+      startDate: new Date(2021, 10, 23),
+      finishDate: new Date(2021, 10, 26),
+      participants: 'schoolchild',
+      sportKind: 'волейбол',
+      direction: 'sport',
+      status: 'ukrainian',
+      placeOfHolding: {
+        country: 'Україна',
+        region: 'Луганська обл.',
+        town: 'Кремінна',
+        sportHallName: 'спортивний зал ЗОШ № 8',
+        address: 'вул. Весняна 12'
+      },
+      organiser: 'КФВС МОН'
+    },
+    {title: 'Спортивна надія України з боксу серед учнів',
+      startDate: new Date(2021, 10, 23),
+      finishDate: new Date(2021, 10, 26),
+      participants: 'schoolchild',
+      sportKind: 'бокс',
+      direction: 'sport',
+      status: 'ukrainian',
+      placeOfHolding: {
+        country: 'Україна',
+        region: 'Луганська обл.',
+        town: 'Кремінна',
+        sportHallName: 'спортивний зал ЗОШ № 8',
+        address: 'вул. Весняна 12'
+      },
+      organiser: 'КФВС МОН'
+    },
+    {title: 'Спортивна надія України з боротьби вільної серед учнів',
+      startDate: new Date(2021, 10, 23),
+      finishDate: new Date(2021, 10, 26),
+      participants: 'schoolchild',
+      sportKind: 'боротьба вільна',
+      direction: 'sport',
+      status: 'ukrainian',
+      placeOfHolding: {
+        country: 'Україна',
+        region: 'Луганська обл.',
+        town: 'Кремінна',
+        sportHallName: 'спортивний зал ЗОШ № 8',
+        address: 'вул. Весняна 12'
+      },
+      organiser: 'КФВС МОН'
+    },
+    {title: 'Чемпіонат України з козацького двобою серед учнів',
+      startDate: new Date(2021, 2, 3),
+      finishDate: new Date(2021, 2, 5),
+      participants: 'schoolchild',
+      sportKind: 'козацький двобій',
+      direction: 'sport',
+      status: 'ukrainian',
+      placeOfHolding: {
+        country: 'Україна',
+        region: 'Сумська обл.',
+        town: 'Суми',
+        sportHallName: 'легкоатлетичний манеж СумДУ',
+        address: 'вул. Студентська 52'
+      },
+      organiser: 'КФВС МОН'
+    },
+    {title: 'Чемпіонат України з козацького двобою серед студентів',
+      startDate: new Date(2021, 2, 6),
+      finishDate: new Date(2021, 2, 8),
+      participants: 'students',
+      sportKind: 'козацький двобій',
+      direction: 'sport',
+      status: 'ukrainian',
+      placeOfHolding: {
+        country: 'Україна',
+        region: 'Сумська обл.',
+        town: 'Суми',
+        sportHallName: 'легкоатлетичний манеж СумДУ',
+        address: 'вул. Студентська 52'
+      },
+      organiser: 'КФВС МОН'
+    },
+    {title: 'Всесвітні учнівські спортивні ігри з волейболу (ISF U15 World School Sport Games) (дівчата) (ІІ ранг)',
+      startDate: new Date(2021, 8, 11),
+      finishDate: new Date(2021, 8, 19),
+      participants: 'schoolchild',
+      sportKind: 'волейбол',
+      direction: 'sport',
+      status: 'international',
+      placeOfHolding: {
+        country: 'Сербія',
+        region: '',
+        town: 'Белград',
+        sportHallName: '',
+        address: ''
+      },
+      organiser: 'УФУС ISF'
+    },
+    {title: 'Всесвітні учнівські спортивні ігри з дзюдо (ISF U15 World School Sport Games) (дівчата) (ІІ ранг)',
+      startDate: new Date(2021, 8, 11),
+      finishDate: new Date(2021, 8, 19),
+      participants: 'schoolchild',
+      sportKind: 'дзюдо',
+      direction: 'sport',
+      status: 'international',
+      placeOfHolding: {
+        country: 'Сербія',
+        region: '',
+        town: 'Белград',
+        sportHallName: '',
+        address: ''
+      },
+      organiser: 'УФУС ISF'
+    },
+    {title: 'Всесвітні учнівські спортивні ігри з карате (ISF U15 World School Sport Games) (дівчата) (ІІ ранг)',
+      startDate: new Date(2021, 8, 11),
+      finishDate: new Date(2021, 8, 19),
+      participants: 'schoolchild',
+      sportKind: 'карате',
+      direction: 'sport',
+      status: 'international',
+      placeOfHolding: {
+        country: 'Сербія',
+        region: '',
+        town: 'Белград',
+        sportHallName: '',
+        address: ''
+      },
+      organiser: 'УФУС ISF'
+    },
+    {title: 'Всесвітні учнівські спортивні ігри з легкої атлетики (ISF U15 World School Sport Games) (дівчата) (ІІ ранг)',
+      startDate: new Date(2021, 8, 11),
+      finishDate: new Date(2021, 8, 19),
+      participants: 'schoolchild',
+      sportKind: 'легка атлетика',
+      direction: 'sport',
+      status: 'international',
+      placeOfHolding: {
+        country: 'Сербія',
+        region: '',
+        town: 'Белград',
+        sportHallName: '',
+        address: ''
+      },
+      organiser: 'УФУС ISF'
+    },
+    {title: 'Всесвітні учнівські спортивні ігри з плавання (ISF U15 World School Sport Games) (дівчата) (ІІ ранг)',
+      startDate: new Date(2021, 8, 11),
+      finishDate: new Date(2021, 8, 19),
+      participants: 'schoolchild',
+      sportKind: 'плавання',
+      direction: 'sport',
+      status: 'international',
+      placeOfHolding: {
+        country: 'Сербія',
+        region: '',
+        town: 'Белград',
+        sportHallName: '',
+        address: ''
+      },
+      organiser: 'УФУС ISF'
+    },
     {title: 'Літня Гімназіада України з волейболу (відбіркові)',
       startDate: new Date(2021, 3, 12),
       finishDate: new Date(2021, 2, 15),
@@ -129,6 +289,86 @@ export class MockDateBase {
         address: 'вул. Мохова, 23'
       },
       organiser: 'УФУС'
+    },
+    {title: 'ІІІ Всеукраїнські Cool Games (відбіркові)',
+      startDate: new Date(2021, 3, 17),
+      finishDate: new Date(2021, 3, 18),
+      participants: 'schoolchild',
+      sportKind: 'Cool Games',
+      direction: 'physical culture',
+      status: 'regional',
+      placeOfHolding: {
+        country: 'Україна',
+        region: 'Вінницька обл.',
+        town: 'Ладижин',
+        sportHallName: '',
+        address: ''
+      },
+      organiser: 'КФВС МОН'
+    },
+    {title: 'ІІІ Всеукраїнські Cool Games (відбіркові)',
+      startDate: new Date(2021, 3, 17),
+      finishDate: new Date(2021, 3, 18),
+      participants: 'schoolchild',
+      sportKind: 'Cool Games',
+      direction: 'physical culture',
+      status: 'regional',
+      placeOfHolding: {
+        country: 'Україна',
+        region: 'Дніпропетровська обл.',
+        town: 'Дніпро',
+        sportHallName: '',
+        address: ''
+      },
+      organiser: 'КФВС МОН'
+    },
+    {title: 'ІІІ Всеукраїнські Cool Games (відбіркові)',
+      startDate: new Date(2021, 3, 17),
+      finishDate: new Date(2021, 3, 18),
+      participants: 'schoolchild',
+      sportKind: 'Cool Games',
+      direction: 'physical culture',
+      status: 'regional',
+      placeOfHolding: {
+        country: 'Україна',
+        region: 'Івано-Франківська обл.',
+        town: 'Долина',
+        sportHallName: '',
+        address: ''
+      },
+      organiser: 'КФВС МОН'
+    },
+    {title: 'ІІІ Всеукраїнські Cool Games (відбіркові)',
+      startDate: new Date(2021, 3, 17),
+      finishDate: new Date(2021, 3, 18),
+      participants: 'schoolchild',
+      sportKind: 'Cool Games',
+      direction: 'physical culture',
+      status: 'regional',
+      placeOfHolding: {
+        country: 'Україна',
+        region: 'Запорізька обл.',
+        town: 'Запоріжжа',
+        sportHallName: '',
+        address: ''
+      },
+      organiser: 'КФВС МОН'
+    },
+    {title: 'ІІІ Всеукраїнські Cool Games (відбіркові)',
+      startDate: new Date(2021, 3, 17),
+      finishDate: new Date(2021, 3, 18),
+      participants: 'schoolchild',
+      sportKind: 'Cool Games',
+      direction: 'physical culture',
+      status: 'regional',
+      placeOfHolding: {
+        country: 'Україна',
+        region: 'Донецька обл.',
+        town: 'Славянск',
+        sportHallName: '',
+        address: ''
+      },
+      organiser: 'КФВС МОН'
     },
     {title: 'ІІІ Всеукраїнські Cool Games',
       startDate: new Date(2021, 4, 27),
@@ -192,7 +432,7 @@ export class MockDateBase {
         sportHallName: '',
         address: ''
       },
-      organiser: 'УФУС'
+      organiser: 'УФУС ISF'
     },
     {title: 'Літня Універсіада України з гандболу',
       startDate: new Date(2021, 5, 19),
@@ -210,7 +450,7 @@ export class MockDateBase {
       },
       organiser: 'СССУ'
     },
-    {title: 'Всеукраїнські Combat Games1 з карате',
+    {title: 'Всеукраїнські Combat Games з карате',
       startDate: new Date(2021, 11, 13),
       finishDate: new Date(2021, 11, 18),
       participants: 'schoolchild',
@@ -226,7 +466,7 @@ export class MockDateBase {
       },
       organiser: 'КФВС МОН'
     },
-    {title: 'Всеукраїнські Combat Games1 з боротьби греко-римської',
+    {title: 'Всеукраїнські Combat Games з боротьби греко-римської',
       startDate: new Date(2021, 11, 13),
       finishDate: new Date(2021, 11, 18),
       participants: 'schoolchild',
@@ -242,7 +482,7 @@ export class MockDateBase {
       },
       organiser: 'КФВС МОН'
     },
-    {title: 'Всеукраїнські Combat Games1 з тхеквондо ВТФ',
+    {title: 'Всеукраїнські Combat Games з тхеквондо ВТФ',
       startDate: new Date(2021, 11, 13),
       finishDate: new Date(2021, 11, 18),
       participants: 'schoolchild',
@@ -258,7 +498,7 @@ export class MockDateBase {
       },
       organiser: 'КФВС МОН'
     },
-    {title: 'Всеукраїнські Combat Games1 з боротьби вільної',
+    {title: 'Всеукраїнські Combat Games з боротьби вільної',
       startDate: new Date(2021, 11, 13),
       finishDate: new Date(2021, 11, 18),
       participants: 'schoolchild',
@@ -274,7 +514,7 @@ export class MockDateBase {
       },
       organiser: 'КФВС МОН'
     },
-    {title: 'Всеукраїнські Combat Games1 з дзюдо',
+    {title: 'Всеукраїнські Combat Games з дзюдо',
       startDate: new Date(2021, 11, 13),
       finishDate: new Date(2021, 11, 18),
       participants: 'schoolchild',

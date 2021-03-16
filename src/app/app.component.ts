@@ -9,7 +9,7 @@ import {Appointment} from './shared/appointment';
 })
 export class AppComponent {
   title = 'table-lesson';
-  displayedColumns = ['title', 'dateOfStart', 'country', 'town'];
+  displayedColumns = ['title', 'startDate', 'finishDate', 'country', 'town'];
   dataSource: Array<Appointment> = MockDateBase.schedule;
   constructor() {
   }
